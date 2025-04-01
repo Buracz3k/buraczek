@@ -7,11 +7,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <video autoplay loop muted playsinline class="background-video">
-        <source src="https://streamable.com/s3vxjt" type="video/mp4">
 
-    </video>
-    
+    <!-- Wstawiamy iframe zamiast video -->
+    <iframe src="https://streamable.com/e/s3vxjt" frameborder="0" allowfullscreen 
+            style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1; border: none;">
+    </iframe>
+
     <div class="profile-card">
         <img src="avatar.jpg" alt="Avatar" class="avatar">
         <h1 class="glow-text">Buraczek</h1>
@@ -23,5 +24,6 @@
             <a href="#"><img src="steam.png" alt="Steam" class="icon"></a>
         </div>
     </div>
+
 </body>
 </html>
