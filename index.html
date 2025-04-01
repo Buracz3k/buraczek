@@ -7,16 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="background"></div>
+    <video autoplay loop muted playsinline class="background-video">
+        <source src="background.mp4" type="video/mp4">
+    </video>
+    
     <div class="profile-card">
         <img src="avatar.jpg" alt="Avatar" class="avatar">
-        <h1>Buraczek</h1>
-        <p class="status">Ugh, you're a monster</p>
-        <p class="location">📍 Beyond Reach</p>
+        <h1 class="glow-text">Buraczek</h1>
+        <p class="status glow-text">Ugh, you're a monster</p>
+        <p class="location glow-text">📍 Beyond Reach</p>
         <div class="social-icons">
-            <a href="#"><img src="discord.png" alt="Discord"></a>
-            <a href="#"><img src="youtube.png" alt="YouTube"></a>
-            <a href="#"><img src="steam.png" alt="Steam"></a>
+            <a href="#"><img src="discord.png" alt="Discord" class="icon"></a>
+            <a href="#"><img src="youtube.png" alt="YouTube" class="icon"></a>
+            <a href="#"><img src="steam.png" alt="Steam" class="icon"></a>
         </div>
     </div>
 </body>
